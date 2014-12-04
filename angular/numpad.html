@@ -1,0 +1,28 @@
+<!doctype html>
+<html ng-app='numpadApp'>
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content='width=device-width, minimum-scale=1.0, 
+                                   maximum-scale=1.0, user-scalable=0'>
+    <title>JS Numpad</title>
+    <link relation='stylesheet' href='../numpad.css'>
+    <script src='angular.min.js'></script>
+    <script src='numpad.js'></script>
+  </head>
+    
+  <body>
+    <div id='num-pad' ng-controller='NumpadController'>
+      <div class='row' id='display-row'>
+        <span id='full-num'>
+          {{fullNum}}
+        </span>
+      </div> 
+      <div class='keys-row' ng-repeat='row in grid'>
+        <span class='{{keyClass(key)}}' id='{{key}}-key' ng-repeat='key in row'
+              ng-click='press(key)' ng-class='numKeyStatus'>
+          {{key}}
+        </span>
+      </div>
+    </div>
+  </body>
+</html>
