@@ -12,6 +12,6 @@ Much of the code is targeted at newer browsers:
 
 The CSS is optimized for a recent version of Firefox or Chromium/Chrome.
 
-The version of Angular and jQuery which I've included do not support IE8 or lower. You can try swapping in Angular 1.2.x or jQuery 1.x, which support older versions of IE, but I do not guarantee everything will work properly.
+The versions of Angular and jQuery which I've included do not support IE8 or lower. You can try swapping in Angular 1.2.x or jQuery 1.x, which support older versions of IE, but I do not guarantee everything will work properly.
 
 The vanilla JS version uses element.classList which needs IE10 to work without a shim (you can find a shim for IE 8-9 [here](https://developer.mozilla.org/en-US/docs/Web/API/Element.classList)).
