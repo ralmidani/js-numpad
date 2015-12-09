@@ -2,8 +2,6 @@
 
 This project shows the pros and cons of different approaches to building a simple web app which includes data-binding.
 
-(live example in the works)
-
 I am not trying to promote a specific approach, as the app is too small to give a real indicator of what using a library or framework (or vanilla JS, for that matter) feels like for more involved apps. For a larger, more involved example--not to mention more libraries and frameworks--check out [TodoMVC](http://www.todomvc.com).
 
 # Compatibility
